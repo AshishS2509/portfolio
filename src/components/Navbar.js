@@ -2,10 +2,10 @@ import Link from 'next/link'
 import React from 'react'
 
 function Navbar(props) {
-    let homeStroke = props.current == 'home' ? '2.5' : 1.5
-    let projectStroke = props.current == 'projects' ? '2.5' : 1.5
-    let educationStroke = props.current == 'education' ? '2.5' : 1.5
-    let contactStroke = props.current == 'contact' ? '2.5' : 1.5
+    let homeStroke = props.current == 'home' ? '2.0' : 0.5
+    let projectStroke = props.current == 'projects' ? '2.0' : 0.5
+    let educationStroke = props.current == 'education' ? '2.0' : 0.5
+    let contactStroke = props.current == 'contact' ? '2.0' : 0.5
   return (
     <div className="bottom-0 lg:mx-10 lg:my-0 lg:left-0 lg:bottom-auto lg:absolute">
         <div className='flex lg:flex-col lg:h-96 justify-evenly gap-10'>

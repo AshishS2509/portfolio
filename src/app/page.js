@@ -8,21 +8,21 @@ export default function Home() {
 
         <Navbar current="home"/>
 
-      <div className="col mx-20">
+      <div className="col lg:mx-20">
         <Image
         src="/profile.jpg"
         width={400}
         height={400}
         alt="Picture of Ashish Khatik"
-        style={{objectFit: "contain", borderRadius:"100%", border:"12px solid white"}}
+        style={{objectFit: "contain", borderRadius:"100%", border:"6px solid white"}}
         priority={true}
         />
       </div>
 
       <div className="col text-center lg:text-left">
-        <p className='mb-4 text-4xl leading-tight font-bold tracking-tighter'><span className='text-yellow-400'>Ashish Khatik</span></p>
-        <p className='mb-4 text-4xl leading-tight font-bold tracking-tighter'><span className='text-blue-500'>Web Developer</span> and Code Enthusiast.</p>
-        <p className='mb-4 text-xl tracking-tighter'>Creating awesome websites with a touch of innovation and fun vibes!</p>
+        <p className='mb-4 text-lg lg:text-4xl leading-tight font-bold tracking-tighter'><span className='text-yellow-400'>Ashish Khatik</span></p>
+        <p className='mb-4 text-lg lg:text-4xl leading-tight font-bold tracking-tighter'><span className='text-blue-500'>Web Developer</span> and Code Enthusiast.</p>
+        <p className='mb-4 text-sm lg:text-xl tracking-tighter'>Creating awesome websites with a touch of innovation and fun vibes!</p>
       </div>
       
       <Social />
