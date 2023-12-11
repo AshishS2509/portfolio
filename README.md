@@ -1,10 +1,10 @@
 ## Getting Started
 
-#First install dependencies:#
+# First install dependencies: #
 
 npm install
 
-#Run developmet server:#
+# Run developmet server: #
 
 npm run dev
 # or
