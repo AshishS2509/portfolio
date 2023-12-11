@@ -25,7 +25,7 @@ export default function Home() {
         <p className='mb-4 text-sm lg:text-xl tracking-tighter'>Creating awesome websites with a touch of innovation and fun vibes!</p>
       </div>
       
-      <Social />
+      <Social />  
 
     </main>
   )
