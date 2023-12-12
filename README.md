@@ -4,12 +4,9 @@
 
 npm install
 
-### Then, run the development server
-# First install dependencies: #
+### Then, run the development server:
 
 npm install
-
-# Run developmet server: #
 
 npm run dev
 #### or
