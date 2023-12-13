@@ -10,7 +10,7 @@ export default function education() {
       
         <div className="container lg:w-3/4 p-2 lg:p-12">
           <div className="my-2">
-            <p className='text-lg lg:text-4xl mb-2'>Bachelors in Computer Science Engineering <span className='text-xs lg:text-sm font-light lg:float-right mt-2'>: 2018 - 2023</span></p>
+            <p className='text-lg lg:text-3xl mb-2'>Bachelors in Computer Science Engineering <span className='text-xs lg:text-sm font-light lg:float-right mt-2'>: 2018 - 2023</span></p>
             <hr className='mb-3' />
             <div className="flex gap-2 lg:gap-12 mb-8 flex-col lg:flex-row">
               <div className="col w-full text-xs lg:text-lg">Gokhale Education Socities R.H.Sapat College of Engineer, Management and Research, Nashik</div>
@@ -18,7 +18,7 @@ export default function education() {
             </div>
           </div>
           <div className="my-2">
-            <p className='text-lg lg:text-4xl mb-2'>Higher Secondary School <span className='text-xs lg:text-sm font-light lg:float-right mt-2'>: 2016 - 2018</span></p>
+            <p className='text-lg lg:text-3xl mb-2'>Higher Secondary School <span className='text-xs lg:text-sm font-light lg:float-right mt-2'>: 2016 - 2018</span></p>
             <hr className='mb-3' />
             <div className="flex gap-2 lg:gap-12 mb-8 flex-col lg:flex-row">
               <div className="col w-full text-xs lg:text-lg">K.P.G Arts, Commerce and Science College, Igatpuri.</div>
@@ -26,7 +26,7 @@ export default function education() {
             </div>
           </div>
           <div className="my-2">
-            <p className='text-lg lg:text-4xl mb-2'>Secondary school certificate <span className='text-xs lg:text-sm font-light lg:float-right mt-2'>: 2016</span></p>
+            <p className='text-lg lg:text-3xl mb-2'>Secondary school certificate <span className='text-xs lg:text-sm font-light lg:float-right mt-2'>: 2016</span></p>
             <hr className='mb-3' />
             <div className="flex gap-2 lg:gap-12 mb-8 flex-col lg:flex-row">
               <div className="col w-full text-xs lg:text-lg">Wonderland High School and Jr. College, Igatpuri.</div>
