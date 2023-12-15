@@ -2,15 +2,18 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Social from "@/components/Social";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({subsets:["latin"], weight: '200'})
 
 export default function contact() {
   return (
     <main className="min-h-screen flex flex-col py-6 lg:justify-evenly items-center lg:flex-col gap-10 lg:gap-5">
       <Navbar current="contact" />
 
-      <div className="container h-3/4 w-11/12 rounded-lg overflow-y-scroll pb-6 lg:fixed lg:w-4/5 lg:flex lg:py-2">
-        <div className="mx-auto text-justify py-10 px-4 text-smlg:text-base lg:w-1/2  grid place-items-center">
-          <p className="">
+      <div className="container h-3/4 w-11/12 rounded-lg overflow-y-scroll pb-6 lg:w-4/5 lg:flex lg:py-2">
+        <div className="mx-auto text-justify pb-10 px-4 text-sm md:w-full lg:text-base lg:w-1/2 lg:pb-0">
+          <p className={poppins.className}>
             &ensp;&ensp;&ensp;Hey, I'm Ashish Khatik, originally from Nashik. I
             graduated in Computer Science Engineering from Pune University in
             2023. Computers always fascinated me, so I decided to dive into
@@ -26,15 +29,15 @@ export default function contact() {
           </p>
         </div>
         <div className="relative flex min-h-scree sm:items-center pt-0">
-          <div className="max-w-6xl mx-auto lg:px-8 lg:max-w-3xl">
+          <div className="mx-auto lg:px-2 lg:max-w-4xl">
             <div className="overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                 <div className="p-6 lg:p-12 bg-gray-900 rounded-lg text-center lg:text-left w-4/5 lg:w-auto mb-5 lg:mb-0">
                   <h1 className="text-xl lg:text-3xl text-white font-bold tracking-tight uppercase">
                     Get in touch
                   </h1>
-
-                  <div className="flex items-center mt-6 text-gray-400 text-left">
+                  <hr className="w-4/5 mx-auto mt-4" />
+                  <div className="flex items-center mt-4 text-gray-400 text-left">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
