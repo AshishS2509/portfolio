@@ -16,7 +16,9 @@ export default function contact() {
           <p className={poppins.className}>
             &ensp;&ensp;&ensp;Hey, I'm Ashish Khatik, originally from Nashik. I
             graduated in Computer Science Engineering from Pune University in
-            2023. Computers always fascinated me, so I decided to dive into
+            2023. 
+            <br /> <br />
+            &ensp;&ensp;&ensp;Computers always fascinated me, so I decided to dive into
             making websites – they're like the digital home for everyone
             nowadays, whether it's for a business or just personal vibes.
             <br /> <br />
