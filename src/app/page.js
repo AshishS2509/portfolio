@@ -2,7 +2,6 @@
 import Navbar from "@/components/Navbar";
 import Social from "@/components/Social";
 import { Montserrat } from "next/font/google";
-import Head from "next/head";
 import Image from "next/image";
 import { Typewriter } from "nextjs-simple-typewriter";
 
@@ -12,26 +11,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col p-6 items-center lg:justify-evenly lg:flex-row gap-10 lg:gap-5">
-      <Head>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/images/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/images/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/images/favicon-16x16.png"
-        />
-      </Head>
 
       <Navbar current="home" />
 
@@ -44,7 +23,7 @@ export default function Home() {
           style={{
             objectFit: "contain",
             borderRadius: "100%",
-            border: "6px solid white",
+            border: "5px solid white",
             margin: "auto"
           }}
           priority={true}
