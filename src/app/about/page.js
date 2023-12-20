@@ -3,8 +3,9 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Social from "@/components/Social";
-import { Poppins } from "next/font/google";
+import { Montserrat, Poppins } from "next/font/google";
 
+const monstratt = Montserrat({subsets:["latin"], weight: ["700"]})
 const poppins = Poppins({subsets:["latin"], weight: '200'})
 
 export default function contact() {
@@ -36,7 +37,7 @@ export default function contact() {
             <div className="overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                 <div className="p-6 lg:p-12 bg-gray-900 rounded-lg text-center lg:text-left w-4/5 lg:w-auto mb-5 lg:mb-0">
-                  <h1 className="text-xl lg:text-3xl text-white font-bold tracking-tight uppercase text-center">
+                  <h1 className={monstratt.className + " text-xl lg:text-3xl text-white uppercase text-center"}>
                     Get in touch
                   </h1>
                   <hr className="w-4/5 mx-auto mt-4" />

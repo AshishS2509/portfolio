@@ -32,7 +32,7 @@ export default function Home() {
 
       <div className="col text-center lg:text-left w-11/12 lg:w-3/5">
         <p className="mb-4 text-4xl lg:text-5xl font-bold">
-          <span className={montserrat.className + " text-yellow-400"}>Ashish Khatik</span>
+          <span className={montserrat.className + " text-yellow-400 font-extrabold"}>Ashish Khatik</span>
         </p>
         <p className="mb-4 text-xl lg:text-4xl font-bold tracking-tighter inline-block w-full">
           <span className="text-blue-500">Web Developer</span>
