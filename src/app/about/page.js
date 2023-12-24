@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Social from "@/components/Social";
 import { Montserrat, Poppins } from "next/font/google";
 
-const monstratt = Montserrat({subsets:["latin"], weight: ["700"]})
+const monstratt = Montserrat({subsets:["latin"], weight: ["900"]})
 const poppins = Poppins({subsets:["latin"], weight: '200'})
 
 export default function contact() {

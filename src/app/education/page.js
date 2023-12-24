@@ -207,6 +207,7 @@ export default function education() {
             <div className="font-light text-xs lg:text-lg">Oct 2023</div>
           </div>
         </div>
+            <div className="w-48 mx-auto py-10"><a href="https://drive.google.com/file/d/1cPFKPgR0orN8KVhixy1fuVgHl6ouJgeA/view?usp=drive_link"><button className={poppins.className + " w-full bg-orange-500 px-10 py-2 rounded-lg font-bold uppercase"}>Resume</button></a></div>
       </div>
 
       <Social />
