@@ -13,9 +13,9 @@ function Card(props) {
     }
 
   return (
-    <div className=' cursor-pointer' onClick = {handelClick}>
-        <div className="max-w-sm rounded-lg overflow-hidden shadow-gray-700 shadow-md">
-        <Image className="w-full" src={props.image} width={1000} height={700} alt="QR-Generator Screenshot"  />
+    <div className='cursor-pointer' onClick = {handelClick}>
+        <div className="max-w-sm rounded-lg overflow-hidden shadow-gray-700 shadow-md p-3">
+        <Image className="w-full rounded-lg" src={props.image} width={1000} height={700} alt="QR-Generator Screenshot"  />
         <div className="px-6 py-4">
             <div className={montserrat.className + " font-bold text-xl mb-2"}>{props.title}</div>
             <p className="text-gray-700 text-base">
