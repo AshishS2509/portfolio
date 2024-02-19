@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Social from "@/components/Social";
 import { Montserrat } from "next/font/google";
-import Image from "next/image";
+import Head from "@/components/Head";
 import { Typewriter } from "nextjs-simple-typewriter";
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -14,21 +14,7 @@ export default function Home() {
 
       <Navbar current="home" />
 
-      <div className="col lg:w-2/5 lg:mx-20">
-        <Image
-          src="/profile.png"
-          width={400}
-          height={400}
-          alt="Picture of Ashish Khatik"
-          style={{
-            objectFit: "contain",
-            borderRadius: "100%",
-            border: "5px solid white",
-            margin: "auto"
-          }}
-          priority={true}
-        />
-      </div>
+      <Head />
 
       <div className="col text-center lg:text-left w-11/12 lg:w-3/5">
         <p className="mb-4 text-4xl lg:text-5xl font-bold">
