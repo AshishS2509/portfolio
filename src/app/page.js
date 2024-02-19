@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="col lg:w-2/5 lg:mx-20">
         <Image
-          src="/profile.jpg"
+          src="/profile.png"
           width={400}
           height={400}
           alt="Picture of Ashish Khatik"
