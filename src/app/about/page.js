@@ -36,38 +36,13 @@ export default function contact() {
           <div className="mx-auto lg:px-2 lg:max-w-4xl">
             <div className="overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
-                <div className="p-6 lg:p-12 bg-gray-900 rounded-lg text-center lg:text-left w-4/5 lg:w-auto mb-5 lg:mb-0">
+                <div className="p-6 lg:p-12 bg-gray-900 rounded-lg text-center lg:text-left lg:w-auto mb-5 lg:mb-0">
                   <h1 className={monstratt.className + " text-xl lg:text-3xl text-white uppercase text-center"}>
                     Get in touch
                   </h1>
                   <hr className="w-4/5 mx-auto mt-4" />
-                  <div className="flex items-center mt-4 text-gray-400 text-left">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                      />
-                    </svg>
 
-                    <div className="ml-4 text-xs lg:text-base tracking-wide w-3/4">
-                      B4 Godavari Sankul, Igatpuri, Nashik, Maharashtra, 422403
-                    </div>
-                  </div>
-
-                  <div className="flex items-center mt-2 text-gray-400 text-left mb-4">
+                  <div className="flex items-center text-gray-400 text-left my-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -83,12 +58,12 @@ export default function contact() {
                       />
                     </svg>
 
-                    <div className="ml-4 text-xs lg:text-base tracking-wide w-3/4">
+                    <div className="ml-4 text-xs lg:text-base tracking-wide">
                       <a href="tel:+918793891870">+91 8793891870</a>
                     </div>
                   </div>
 
-                  <div className="flex items-center mt-2  text-gray-400 text-left">
+                  <div className="flex items-center my-2  text-gray-400 text-left">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -104,7 +79,7 @@ export default function contact() {
                       />
                     </svg>
 
-                    <div className="ml-4 text-xs lg:text-base tracking-wide w-3/4">
+                    <div className="ml-4 text-xs lg:text-base tracking-wide">
                       <a href="mailto:ashish.2509.k@gmail.com">
                         ashish.2509.k@gmail.com
                       </a>
