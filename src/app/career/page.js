@@ -174,6 +174,23 @@ export default function education() {
             </div>
             <div className="font-light text-xs lg:text-lg">Oct 2022 - May 2023</div>
           </div>
+          <div
+            className={
+              poppins.className +
+              " mt-3 p-5 border border-white rounded-xl grid lg:grid-cols-2 gap-4"
+            }
+          >
+            <div className="text-base font-bold lg:text-xl">
+              Software Developer <br />
+              <a
+                href="https://midknightstudio.com/"
+                className="text-xs font-extralight lg:text-base"
+              >
+                🔗 PointMatrix IT Services, Nashik
+              </a>
+            </div>
+            <div className="font-light text-xs lg:text-lg">Mar 2024 - current</div>
+          </div>
         </div>
 
         <div className={montserrat.className + " text-xl mt-8 lg:text-3xl"}>

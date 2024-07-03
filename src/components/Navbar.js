@@ -43,7 +43,7 @@ function Navbar(props) {
           </svg>
         </Link>
 
-        <Link href={"/education"} className="hover:scale-150 transition-all">
+        <Link href={"/career"} className="hover:scale-150 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
