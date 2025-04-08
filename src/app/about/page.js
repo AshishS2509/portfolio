@@ -16,7 +16,7 @@ export default function contact() {
       <div className="container h-3/4 w-11/12 rounded-lg overflow-y-scroll pb-6 lg:w-4/5 lg:flex lg:py-2">
         <div className="mx-auto text-justify pb-10 px-4 text-sm md:w-full lg:text-base lg:w-1/2 lg:pb-0">
           <p className={poppins.className}>
-            &ensp;&ensp;&ensp;Hey, I'm Ashish Khatik, originally from Nashik. I
+            &ensp;&ensp;&ensp;Hey, I'm Ashish Solanki, originally from Nashik. I
             graduated in Computer Science Engineering from Pune University in
             2023. 
             <br /> <br />
