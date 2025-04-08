@@ -8,7 +8,7 @@ function Head() {
           src="/Main-Image.png"
           width={400}
           height={400}
-          alt="Image of Ashish Khatik"
+          alt="Image of Ashish Solanki"
           style={{
             objectFit: "contain",
             borderRadius: "100%",
