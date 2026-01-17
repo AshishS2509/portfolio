@@ -189,7 +189,7 @@ export default function education() {
                 🔗 PointMatrix IT Services, Nashik
               </a>
             </div>
-            <div className="font-light text-xs lg:text-lg">Mar 2024 - current</div>
+            <div className="font-light text-xs lg:text-lg">Mar 2024 - Dec 2025</div>
           </div>
         </div>
 
@@ -224,7 +224,7 @@ export default function education() {
             <div className="font-light text-xs lg:text-lg">Oct 2023</div>
           </div>
         </div>
-            <div className="w-48 mx-auto py-10"><a href="https://drive.google.com/file/d/1WSaPF9ueeSqEPmWhpyOp8hIDoKUijVi4/view?usp=drive_link"><button className={poppins.className + " w-full bg-orange-500 px-10 py-2 rounded-lg font-bold uppercase"}>Resume</button></a></div>
+            <div className="w-48 mx-auto py-10"><a href="https://drive.google.com/file/d/1iqtlhVzPary17BFtY61wBiORf5GohKn1/view?usp=sharing"><button className={poppins.className + " w-full bg-orange-500 px-10 py-2 rounded-lg font-bold uppercase"}>Resume</button></a></div>
       </div>
 
       <Social />

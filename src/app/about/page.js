@@ -80,8 +80,8 @@ export default function contact() {
                     </svg>
 
                     <div className="ml-4 text-xs lg:text-base tracking-wide">
-                      <a href="mailto:ashish.2509.k@gmail.com">
-                        ashish.2509.k@gmail.com
+                      <a href="mailto:ashish.solanki.2509@gmail.com">
+                        ashish.solanki.2509@gmail.com
                       </a>
                     </div>
                   </div>
