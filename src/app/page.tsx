@@ -1,0 +1,65 @@
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from "@/components/ui/card";
+import Image from "next/image";
+import profile from "../../public/profile.webp";
+import { Button } from "@/components/ui/button";
+import Icons from "@/components/Icons";
+
+export default function Home() {
+  return (
+    <div className="lg:flex lg:flex-row">
+      <div className="lg:basis-1/3 lg:p-8">
+        <Card className="md:pl-8 md:flex md:flex-row lg:flex-col justify-center items-center lg:pl-0">
+          <div className="w-99 h-64 flex justify-center -mt-18 md:mt-0 lg:-mt-18 drop-shadow-2xl">
+            <Image
+              className="rounded-xl"
+              height={256}
+              width={256}
+              src={profile}
+              alt="Profile Image"
+            />
+          </div>
+          <div className="flex flex-col justify-around lg:block w-full">
+            <h1 className="text-center text-2xl font-bold leading-8">
+              Ashish Solanki
+            </h1>
+            <h4 className="text-center text-xl leading-loose font-mono">
+              Software Developer
+            </h4>
+            <CardDescription className="text-center space-x-5 my-3">
+              <Button variant="outline" size="icon">
+                <Icons name="linkedIn" />
+              </Button>
+              <Button variant="outline" size="icon">
+                <Icons name="github" />
+              </Button>
+              <Button variant="outline" size="icon">
+                <Icons name="linkedIn" />
+              </Button>
+            </CardDescription>
+            <CardContent className="text-center">
+              <p> You can contact me on email </p>
+              <a
+                className="text-blue-500"
+                href="mailto:ashish.solanki.2509@gmail.com"
+              >
+                ashish.solanki.2509@gmail.com
+              </a>
+            </CardContent>
+            <CardAction className=" w-full text-center">
+              <Button className=" w-3/4 mt-3" title="Download Resume">
+                Resume
+              </Button>
+            </CardAction>
+          </div>
+        </Card>
+      </div>
+      <div className="lg:basis-2/3">02</div>
+    </div>
+  );
+}
