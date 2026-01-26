@@ -37,7 +37,7 @@ export function ThemeConfig({ children }: { children: React.ReactNode }) {
   return (
     <div className="relative min-h-screen w-full pt-32 px-4 md:pt-36 md:px-8 lg:pt-40 lg:px-20">
       <div
-        className="absolute inset-0 -z-10"
+        className="fixed inset-0 -z-10"
         style={{ background: "var(--bg-gradient)" }}
       />
       {children}

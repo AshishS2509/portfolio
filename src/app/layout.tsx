@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito, Ubuntu, Ubuntu_Mono } from "next/font/google";
+import { Poppins, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import {
   ModeToggle,
@@ -7,15 +7,15 @@ import {
   ThemeProvider,
 } from "@/components/theme-provider";
 
-const ubuntu = Ubuntu({
+const ubuntu = Poppins({
   variable: "--font-ubuntu-sans",
-  weight: ["300", "400", "500", "700"],
+  weight: ["100","200", "300", "400", "500","600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
-const ubuntuMono = Ubuntu_Mono({
+const ubuntu_mono = Roboto_Mono({
   variable: "--font-ubuntu-mono",
-  weight: ["400", "700"],
+  weight: ["100","200", "300", "400", "500","600", "700"],
   subsets: ["latin"],
 });
 
@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${ubuntu.variable} ${ubuntuMono.variable} antialiased`}>
+      <body className={`${ubuntu.variable} ${ubuntu_mono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ThemeConfig>
             <ModeToggle />
