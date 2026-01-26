@@ -1,4 +1,4 @@
-type TIconNames = "linkedIn" | "github" | "x";
+export type TIconNames = "linkedIn" | "github" | "x";
 function Icons({ name }: { name: TIconNames }) {
   switch (name) {
     case "linkedIn":
