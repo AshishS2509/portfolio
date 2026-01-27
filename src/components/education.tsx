@@ -8,7 +8,7 @@ const educationData = {
       degree: "B.E in Computer Science",
       university: "Savitribai Phule Pune University",
       description:
-        "<span className='font-medium'>Relevant Coursework:</span> Data Structures & Algorithms, Operating Systems, Database Management Systems, Computer Networks, Software Engineering",
+        "Relevant Coursework: Data Structures & Algorithms, Operating Systems, Database Management Systems, Computer Networks, Software Engineering",
     },
   ],
 };
