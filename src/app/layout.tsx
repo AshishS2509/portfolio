@@ -7,14 +7,14 @@ import {
   ThemeProvider,
 } from "@/components/theme-provider";
 
-const ubuntu = Poppins({
-  variable: "--font-ubuntu-sans",
+const poppins = Poppins({
+  variable: "--font-poppins-sans",
   weight: ["100","200", "300", "400", "500","600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
-const ubuntu_mono = Roboto_Mono({
-  variable: "--font-ubuntu-mono",
+const roboto = Roboto_Mono({
+  variable: "--font-roboto-mono",
   weight: ["100","200", "300", "400", "500","600", "700"],
   subsets: ["latin"],
 });
@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${ubuntu.variable} ${ubuntu_mono.variable} antialiased`}>
+      <body className={`${poppins.variable} ${roboto.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ThemeConfig>
             <ModeToggle />
