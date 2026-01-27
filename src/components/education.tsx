@@ -14,27 +14,25 @@ const educationData = {
 };
 function Education() {
   return (
-    <>
-      <CardTitle id="education">
+    <section aria-labelledby="education" id="education">
+      <CardTitle>
         <h2>Education</h2>
       </CardTitle>
       <CardContent>
-        <div className="space-y-4">
-          {educationData.education.map((education) => {
-            return (
-              <div
-                key={useId()}
-                className="border border-gray-200 dark:border-gray-700 rounded-lg p-4"
-              >
-                <h3>{education.degree}</h3>
-                <p className="text-sm">{education.university}</p>
-                <p className="text-sm ">{education.description}</p>
-              </div>
-            );
-          })}
-        </div>
+        {educationData.education.map((education) => {
+          return (
+            <div
+              key={useId()}
+              className="border border-gray-200 dark:border-gray-700 rounded-lg p-4"
+            >
+              <h3>{education.degree}</h3>
+              <p className="text-sm">{education.university}</p>
+              <p className="text-sm ">{education.description}</p>
+            </div>
+          );
+        })}
       </CardContent>
-    </>
+    </section>
   );
 }
 
