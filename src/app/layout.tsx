@@ -38,9 +38,6 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
     card: "summary_large_image",
   },
-  verification: {
-    google: "VY_EalTZuWmQzFx5j3Fxfh0Tvz9IoMBe2wGNnzQd7sY",
-  },
 };
 
 export const viewport: Viewport = {
@@ -65,8 +62,8 @@ export default function RootLayout({
               jobTitle: "Full Stack Developer",
               url: siteUrl,
               sameAs: [
-                "https://github.com/yourusername",
-                "https://linkedin.com/in/yourusername",
+                "https://github.com/AshishS2509",
+                "https://linkedin.com/in/solanki-ashish",
               ],
               alumniOf: {
                 "@type": "CollegeOrUniversity",
@@ -86,6 +83,10 @@ export default function RootLayout({
               ],
             }),
           }}
+        />
+        <meta
+          name="google-site-verification"
+          content="VY_EalTZuWmQzFx5j3Fxfh0Tvz9IoMBe2wGNnzQd7sY"
         />
       </head>
       <body
