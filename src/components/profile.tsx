@@ -17,14 +17,14 @@ const profileData = {
   socials: [
     {
       name: "linkedIn",
-      href: "https://www.linkedin.com/in/ashish-solanki-831685168/",
+      href: "https://www.linkedin.com/in/solanki-ashish/",
     },
     { name: "github", href: "https://github.com/AshishS2509" },
     { name: "x", href: "https://x.com/Ashish_2509_" },
   ],
   email: "ashish.solanki.2509@gmail.com",
   cv: {
-    href: "https://drive.google.com/file/d/1JzJV3CeyQJLl92njdUsi14ZVWwMF-z6E/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1FsBxnLMn6vauiPZc6aP7NCLm6EKJ8oEd/view?usp=sharing",
     buttonText: "Download CV",
   },
 };
