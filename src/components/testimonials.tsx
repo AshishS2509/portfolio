@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 
 const testimonialsData = {
   title: "What Clients Say",
-  subtitle: "From people I've worked with",
+  subtitle: "Straight from the business owners I've worked with",
   testimonials: [
     {
       name: "Ajay Kasar",

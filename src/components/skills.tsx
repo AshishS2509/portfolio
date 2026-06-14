@@ -15,7 +15,7 @@ const skillsData = {
       type: "Web & Mobile",
       icon: Globe,
       summary:
-        "I build web apps and mobile apps that work fast, look clean, and scale.",
+        "Custom web and mobile apps that load fast, look sharp, and scale without breaking.",
       tools: [
         "Next.js",
         "React",
@@ -29,7 +29,7 @@ const skillsData = {
       type: "Backend & APIs",
       icon: Workflow,
       summary:
-        "Solid backend work — APIs, databases, auth, payments, and integrations.",
+        "Reliable backend systems — APIs, databases, authentication, payments, and third-party integrations that hold up under load.",
       tools: [
         "Node.js",
         "Fastify",
@@ -43,7 +43,7 @@ const skillsData = {
       type: "AI & Automation",
       icon: Bot,
       summary:
-        "Chatbots, AI agents, and automated workflows that run while you sleep.",
+        "AI chatbots, intelligent agents, and automated workflows that handle the repetitive work — around the clock, without adding headcount.",
       tools: [
         "Claude API",
         "OpenAI",
@@ -57,7 +57,7 @@ const skillsData = {
       type: "SEO & Performance",
       icon: SearchCheck,
       summary:
-        "Fast sites that rank. Built right from the start, not patched in later.",
+        "Fast sites that rank. Built right from the start — not patched in later.",
       tools: [
         "Core Web Vitals",
         "Schema Markup",
@@ -70,7 +70,7 @@ const skillsData = {
       type: "Infrastructure & Dev",
       icon: Layers,
       summary:
-        "Reliable deployments, clean code, and systems that don't break at 2am.",
+        "Reliable deployments, clean architecture, and systems that don't fail when it matters most.",
       tools: ["Docker", "CI/CD", "Git", "Linux", "Vercel", "Stripe & Razorpay"],
     },
   ],

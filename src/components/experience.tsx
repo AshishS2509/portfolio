@@ -18,11 +18,11 @@ const experienceData = {
         to: "Present",
       },
       description:
-        "Consulting with business owners and founders to identify problems, define solutions, and build the right technology for their needs. Delivering across web apps, AI chatbots, WhatsApp automation, SEO, and API integrations — from discovery and scoping through to deployment and support.",
+        "Independent consulting and development work with business owners and founders across India and internationally. I identify the real problem, define the right solution, then build and ship it — covering web apps, AI chatbots, WhatsApp automation, SEO, and API integrations from initial scoping through to deployment and ongoing support.",
       highlights: [
-        "Built a full-stack travel booking platform with WhatsApp inquiry automation",
-        "Designed and delivered AI-powered chatbot integrations for client businesses",
-        "Provided solution consulting to help clients avoid overbuilt, overpriced tech",
+        "Built a full-stack travel booking platform with WhatsApp inquiry automation that significantly reduced manual follow-up time for the client",
+        "Designed and delivered AI-powered chatbot integrations for client businesses — live and actively handling real customer queries",
+        "Provided solution consulting that helped clients define the right scope and avoid overbuilt, overpriced technology",
       ],
       tags: ["Consulting", "Next.js", "AI Chatbots", "WhatsApp API", "SEO"],
     },
@@ -34,11 +34,11 @@ const experienceData = {
         to: "Dec 2025",
       },
       description:
-        "Developed and maintained scalable web applications using modern technologies. Collaborated with cross-functional teams to deliver high-quality solutions while following best practices in software architecture and code design.",
+        "Developed and maintained scalable web applications serving multiple business clients simultaneously. Collaborated with cross-functional teams on architecture decisions, API design, and code quality — with a consistent focus on writing clean, maintainable code that holds up under real-world usage.",
       highlights: [
-        "Worked on multi-tenant SaaS architecture serving multiple business clients",
-        "Built and maintained REST APIs consumed by web and mobile frontends",
-        "Participated in code reviews and introduced cleaner patterns to the codebase",
+        "Contributed to multi-tenant SaaS architecture built to serve multiple business clients from a single platform",
+        "Built and maintained REST APIs consumed across web and mobile frontends in production",
+        "Introduced cleaner patterns and improved practices through regular code reviews — raising overall codebase quality",
       ],
       tags: ["Node.js", "React.js", "PostgreSQL", "REST APIs", "Docker"],
     },
@@ -50,11 +50,11 @@ const experienceData = {
         to: "Mar 2023",
       },
       description:
-        "Built end-to-end web and mobile applications with focus on performance and user experience. Worked on API development, database design, and frontend optimization while maintaining clean, maintainable code.",
+        "Built end-to-end web and mobile applications with a strong emphasis on performance and user experience. Took full ownership of features from frontend to backend — API development, database design, and UI — while keeping the code clean and the product fast.",
       highlights: [
-        "Delivered mobile-first UI for a consumer-facing product",
-        "Optimized API response times and reduced database query overhead",
-        "Took ownership of frontend-to-backend feature development end to end",
+        "Delivered a mobile-first UI for a consumer-facing product, optimized for performance and usability",
+        "Cut API response times and reduced database query overhead through targeted backend optimization",
+        "Owned full frontend-to-backend feature development — scoped, built, and shipped independently end to end",
       ],
       tags: ["React Native", "Express.js", "MongoDB", "UI/UX", "Performance"],
     },

@@ -24,11 +24,11 @@ const workData = {
       icon: Lightbulb,
       title: "Discovery, Consulting & Solution Design",
       description:
-        "Every successful project starts with understanding the problem. Before any development begins, I work closely with you to understand your business, identify bottlenecks, evaluate opportunities, and design a practical technology solution that makes sense for your goals and budget.",
+        "Most projects fail because people jump to building before they understand the problem. I work with you first — mapping your operations, identifying where leads and time are being lost, and designing a practical technology solution that fits your actual goals and budget. No overselling. No unnecessary complexity.",
       outcomes: [
-        "Clear project scope and roadmap",
-        "Technology recommendations based on business needs",
-        "Reduced risk of costly changes later",
+        "A clear, agreed scope with no hidden surprises",
+        "Technology recommendations tied directly to your goals and budget",
+        "Fewer costly mid-project changes and scope surprises down the line",
       ],
       deliverables: [
         "Business analysis",
@@ -36,18 +36,18 @@ const workData = {
         "Project planning",
       ],
       bestFor:
-        "Business owners, founders, and teams who know the problem but need clarity on the right solution.",
+        "Business owners, founders, and teams who know something needs to change but aren't sure what to build — or where to start.",
     },
 
     {
       icon: Globe,
       title: "Custom Web & Mobile Applications",
       description:
-        "I build custom web platforms, business systems, customer portals, dashboards, and mobile applications from the ground up. The focus is always on performance, scalability, usability, and long-term maintainability—not just getting something online quickly.",
+        "Off-the-shelf tools create workarounds. Custom-built applications are designed around your exact workflows, customer journey, and business logic. I build web platforms, business systems, customer portals, dashboards, and mobile apps from scratch — optimised for performance, scalability, and long-term maintainability.",
       outcomes: [
-        "Responsive experience across all devices",
-        "Production-ready architecture from day one",
-        "Scalable foundation for future growth",
+        "Fast, responsive experience across every device",
+        "Production-grade architecture built from day one — not retrofitted later",
+        "A codebase that scales as your business grows without needing a full rebuild",
       ],
       deliverables: [
         "Frontend & backend development",
@@ -55,18 +55,18 @@ const workData = {
         "Deployment and support",
       ],
       bestFor:
-        "Businesses and startups that need a tailored product instead of an off-the-shelf solution.",
+        "Startups, growing businesses, and founders who need a product built around their exact requirements — not adapted from a template.",
     },
 
     {
       icon: Bot,
       title: "AI Agents & Intelligent Chatbots",
       description:
-        "Custom AI assistants powered by modern LLMs such as GPT and Claude. These systems can answer customer questions, qualify leads, assist employees, retrieve business information, and automate repetitive workflows while remaining aligned with your business processes.",
+        "Stop letting leads go cold waiting for a reply. I build custom AI assistants powered by modern LLMs — GPT and Claude — that answer customer questions, qualify leads, surface business knowledge, and handle repetitive workflows around the clock, without adding headcount.",
       outcomes: [
-        "24/7 automated customer assistance",
-        "Lead qualification without manual effort",
-        "Reduced workload for support teams",
+        "24/7 customer support and lead handling without additional staff",
+        "Instant lead qualification and follow-up — no manual effort required",
+        "Your team focuses on complex work; the AI handles the rest",
       ],
       deliverables: [
         "Custom AI assistant development",
@@ -74,18 +74,18 @@ const workData = {
         "Website and platform integration",
       ],
       bestFor:
-        "Businesses receiving frequent inquiries or looking to automate customer interactions.",
+        "Businesses drowning in repetitive inquiries, missing leads after hours, or looking to automate customer interactions at scale.",
     },
 
     {
       icon: MessageCircle,
       title: "WhatsApp Automation & Conversational Workflows",
       description:
-        "Meet customers where they already communicate. I create automated WhatsApp systems for bookings, inquiries, support, lead capture, reminders, follow-ups, and notifications using Meta Cloud API and other reliable integrations.",
+        "Your customers are already on WhatsApp. I build automated conversation systems that handle bookings, inquiries, lead capture, reminders, follow-ups, and support notifications using Meta Cloud API — so every message gets a response, even when you're unavailable.",
       outcomes: [
-        "Instant responses to customer messages",
-        "Automated booking and inquiry flows",
-        "Higher engagement through familiar channels",
+        "Instant, automated replies to every incoming WhatsApp message",
+        "Automated booking and inquiry flows that work 24/7 without intervention",
+        "Higher engagement through the channel your customers already prefer",
       ],
       deliverables: [
         "Conversation flow design",
@@ -93,18 +93,18 @@ const workData = {
         "CRM and system integrations",
       ],
       bestFor:
-        "Businesses that rely heavily on WhatsApp for customer communication.",
+        "Service businesses, travel operators, clinics, real estate agents, and anyone whose customers reach out on WhatsApp daily.",
     },
 
     {
       icon: SearchCheck,
       title: "SEO & Website Performance Optimization",
       description:
-        "A great website is useless if nobody finds it. I optimize websites for search engines and users by improving technical SEO, page speed, structured data, content structure, and overall site performance.",
+        "Ranking on Google isn't about tricks — it's about building sites correctly. I audit and optimise for technical SEO, Core Web Vitals, structured data, content architecture, and page speed so your site earns consistent organic traffic instead of depending entirely on paid ads.",
       outcomes: [
-        "Improved visibility on Google",
-        "Faster loading websites",
-        "Better user experience and engagement",
+        "Higher Google rankings for the terms your customers are actively searching",
+        "Faster loading pages that reduce bounce rates and improve engagement",
+        "Better user experience that converts more visitors into real leads",
       ],
       deliverables: [
         "Technical SEO audit",
@@ -112,18 +112,18 @@ const workData = {
         "Structured data implementation",
       ],
       bestFor:
-        "Businesses with an existing website that needs more traffic, visibility, and performance.",
+        "Businesses with a website that's getting traffic but not ranking — or ranking but not converting visitors into leads.",
     },
 
     {
       icon: Workflow,
       title: "API Integrations & Business Automation",
       description:
-        "Many businesses waste time moving data between disconnected tools. I connect your applications, CRMs, payment gateways, maps, email platforms, calendars, and internal systems so information flows automatically where it needs to go.",
+        "Disconnected tools create duplicate work, data errors, and costly delays. I connect your CRM, payment gateways, email platforms, calendars, internal databases, and third-party services so information flows automatically — and your team stops manually bridging the gaps.",
       outcomes: [
-        "Less manual data entry",
-        "Fewer operational errors",
-        "Automated business workflows",
+        "Less manual data entry and fewer operational errors across systems",
+        "Automated workflows that trigger and update without human intervention",
+        "More time for your team to focus on work that actually drives revenue",
       ],
       deliverables: [
         "Third-party integrations",
@@ -131,18 +131,18 @@ const workData = {
         "Monitoring and error handling",
       ],
       bestFor:
-        "Businesses looking to streamline operations and connect existing software.",
+        "Operations-heavy businesses spending too much time on manual data entry, system exports, and cross-platform updates.",
     },
 
     {
       icon: Layers,
       title: "SaaS Platforms & Multi-Tenant Systems",
       description:
-        "I design and develop scalable SaaS products that support multiple customers from a single platform. Features commonly include subscriptions, billing, role-based access, analytics, and administration tools designed for long-term growth.",
+        "Building a SaaS product is different from building a website. I design and develop scalable multi-tenant platforms with everything a software business needs from day one — subscription billing, role-based access, admin tooling, tenant data isolation, and architecture built to grow with your customer base.",
       outcomes: [
-        "Scalable architecture for multiple customers",
-        "Automated subscriptions and billing",
-        "Secure tenant data separation",
+        "Scalable multi-tenant architecture that handles many customers from one platform",
+        "Automated subscription billing and plan management from launch",
+        "Secure, isolated tenant data with no risk of cross-account exposure",
       ],
       deliverables: [
         "Multi-tenant architecture",
@@ -150,25 +150,26 @@ const workData = {
         "Subscription management",
       ],
       bestFor:
-        "Businesses building software products or launching a SaaS offering.",
+        "Founders and businesses ready to build a recurring-revenue software product and launch it the right way.",
     },
 
     {
       icon: ChevronsUp,
       title: "Rapid MVP Development",
       description:
-        "For founders who need to validate an idea quickly. I focus on building only the essential features required to launch, gather feedback, and prove market demand before investing in a larger product.",
+        "Most MVPs fail because they're built like full products. I strip the scope down to only the features needed to prove market demand — ship it fast, get it in front of real users, and help you decide whether to build more, pivot, or stop before betting your full budget on the wrong idea.",
       outcomes: [
-        "Faster time to market",
-        "Reduced development costs",
-        "Real user feedback sooner",
+        "A working product in market faster and at lower upfront cost",
+        "Real user feedback before committing to full-scale development spend",
+        "A clear, informed path forward — build more, pivot, or stop with confidence",
       ],
       deliverables: [
         "MVP planning",
         "Core feature development",
         "Launch-ready deployment",
       ],
-      bestFor: "Startups and founders testing a new idea or business model.",
+      bestFor:
+        "Startups and founders who need to validate a new idea or business model before committing to a full build.",
     },
   ],
 };

@@ -10,22 +10,16 @@ import { Badge } from "@/components/shared/badge";
 const aboutData = {
   title: "About",
   paraOne:
-    "I'm a freelance tech consultant and full-stack developer who helps businesses solve real problems with scalable digital solutions. My work starts before a single line of code — I spend time understanding how your business operates, where the friction is, and what a solution actually needs to do. Then I build it.",
+    "I'm a freelance tech consultant and full-stack developer based in India, working with businesses that need more than a developer who takes a brief and ships code. Before anything gets built, I map out what your business actually needs — where leads are slipping through, where your team is stuck in manual work, and what the right technology would genuinely fix. Then I build exactly that.",
   paraTwo:
-    "I work across the full spectrum of modern tech: web and mobile applications, AI chatbots and agents, WhatsApp automation, SEO, API integrations, and SaaS products. Whether you need to automate a manual process, launch a product, or connect the tools your team already uses — I scope it, design it, and ship it end to end.",
+    "My work spans custom web and mobile apps, AI chatbots and agents, WhatsApp automation, SEO, API integrations, and SaaS products. Whether you're trying to automate a slow manual process, launch a new product, or get your existing tools connected and working together — I scope the solution, design it around your constraints, and ship it end to end.",
   paraThree:
-    "I've worked with startups, IT service firms, and business owners who are done with generic solutions. If you have a business problem that needs the right technology behind it, let's talk.",
-  highlights: [
-    { label: "3+", description: "Years of Experience" },
-    { label: "5+", description: "Projects Delivered" },
-    { label: "4+", description: "Happy Clients" },
-    { label: "Full Stack", description: "Web · Mobile · AI" },
-  ],
+    "I've worked with startups, IT service firms, and business owners across India and internationally who are done paying for overbuilt, overpriced technology that doesn't fit how their business actually works. If you have a problem that needs the right technology behind it — not just any technology — let's talk.",
   approach: [
-    "Understand the business problem first",
-    "Define a solution before writing any code",
-    "Build lean — only what's needed to work",
-    "Deliver with documentation and support",
+    "Start with your business problem, not the technology",
+    "Define the right solution before writing a single line of code",
+    "Build lean — ship what works, skip everything that doesn't",
+    "Hand over clean code, full documentation, and continued support",
   ],
 };
 
@@ -40,7 +34,7 @@ function About() {
         </CardHeader>
 
         <CardContent className="px-0 space-y-8">
-          {/* Highlights bar */}
+          {/* Highlights bar
           <div
             role="list"
             aria-label="Key highlights"
@@ -64,7 +58,7 @@ function About() {
                 )}
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Bio paragraphs */}
           <div className="space-y-4 text-justify text-sm leading-relaxed text-foreground/85">

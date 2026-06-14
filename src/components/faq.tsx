@@ -7,37 +7,37 @@ import {
 
 const faqData = {
   title: "Common Questions",
-  subtitle: "Things people usually ask before hiring me",
+  subtitle: "The questions most clients ask before we start working together",
   faqs: [
     {
       question: "Do you only build websites?",
       answer:
-        "No. I build web apps, mobile apps, AI chatbots, WhatsApp bots, and handle API integrations and SEO. Most projects I take on combine several of these — a business rarely just needs 'a website'.",
+        "Not at all. I build web apps, mobile apps, AI chatbots, WhatsApp automation systems, and handle API integrations and SEO. Most projects I take on combine several of these — because a business rarely has just one isolated problem to solve.",
     },
     {
       question: "How do we start?",
       answer:
-        "Book a discovery call or send me an email describing what you're trying to do. I'll ask a few questions, then put together a scope and quote for you — no commitment needed.",
+        "Book a discovery call or send me a quick email describing what you're trying to solve. I'll ask a few focused questions, then put together a clear scope and quote for you — no commitment required to have that first conversation.",
     },
     {
       question: "How long does a project take?",
       answer:
-        "Depends on scope. A WhatsApp automation or chatbot can be done in 1–2 weeks. A full web app or SaaS product takes 3–8 weeks. I'll give you a realistic timeline upfront in the proposal.",
+        "Depends on what you're building. A WhatsApp automation setup or AI chatbot typically takes 1–2 weeks. A full web app or SaaS platform takes 3–8 weeks. I give you a specific, realistic timeline in the proposal before any work begins — and I stick to it.",
     },
     {
       question: "Do you work with clients outside India?",
       answer:
-        "Yes. I work remotely with clients anywhere. Most communication happens over WhatsApp, email, or video calls.",
+        "Yes. I work fully remotely with clients across India and internationally. Most projects run smoothly over WhatsApp, email, and video calls — timezone differences haven't been an issue.",
     },
     {
       question: "What if I don't know exactly what I need?",
       answer:
-        "That's exactly what the discovery and consulting service is for. I'll help you figure out what to build and what to skip — before spending anything on development.",
+        "That's exactly what the discovery and consulting service is for. Many clients come in knowing something needs to change but aren't sure what to build. I help you define the right scope, avoid expensive mistakes, and get clarity on the solution before spending anything on development.",
     },
     {
       question: "Will I own the code after the project?",
       answer:
-        "Yes, completely. Once the project is paid for, you own everything — source code, design files, and all documentation.",
+        "Yes — completely. Once the project is paid for, everything is yours: the full source code, design files, deployment configurations, and all documentation. No vendor lock-in, no ongoing licensing fees, no strings attached.",
     },
   ],
 };

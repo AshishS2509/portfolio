@@ -8,7 +8,8 @@ import { Separator } from "@/components/shared/separator";
 const profileData = {
   name: "Ashish Solanki",
   title: "Tech Consultant & Full Stack Developer",
-  tagline: "I understand your business first. Then I build the solution.",
+  tagline:
+    "I help businesses stop losing leads and time to manual work — through custom web apps, AI chatbots, and WhatsApp automation built around how you actually operate.",
   badge: "Available for Freelance",
   availability: {
     status: "Available for freelance",
@@ -59,7 +60,7 @@ function Profile() {
             {profileData.availability.badge}
           </Badge>
 
-          <p className="text-xs text-muted-foreground/80 italic leading-relaxed px-2 max-w-56">
+          <p className="text-xs text-muted-foreground/80 italic leading-relaxed px-2 ">
             "{profileData.tagline}"
           </p>
         </div>

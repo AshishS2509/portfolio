@@ -17,9 +17,9 @@ const educationData = {
       description:
         "Relevant Coursework: Data Structures & Algorithms, Operating Systems, Database Management Systems, Computer Networks, Software Engineering",
       highlights: [
-        "Strong fundamentals in algorithms and system design",
-        "Hands-on projects in networking and OS concepts",
-        "Foundation for scalable software architecture",
+        "Built strong fundamentals in algorithms, data structures, and system design",
+        "Hands-on projects in networking, operating systems, and software engineering",
+        "Academic foundation that directly informs clean, scalable architecture in production work",
       ],
     },
   ],
