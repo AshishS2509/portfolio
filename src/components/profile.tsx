@@ -24,7 +24,7 @@ const profileData = {
   ],
   email: "ashish.solanki.2509@gmail.com",
   cv: {
-    href: "https://drive.google.com/file/d/1JzJV3CeyQJLl92njdUsi14ZVWwMF-z6E/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1FsBxnLMn6vauiPZc6aP7NCLm6EKJ8oEd/view?usp=sharing",
     buttonText: "Download CV",
   },
   cta: {

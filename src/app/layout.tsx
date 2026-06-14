@@ -84,10 +84,6 @@ export default function RootLayout({
             }),
           }}
         />
-        <meta
-          name="google-site-verification"
-          content="VY_EalTZuWmQzFx5j3Fxfh0Tvz9IoMBe2wGNnzQd7sY"
-        />
       </head>
       <body
         className={`${poppins.variable} ${roboto.variable} antialiased font-sans`}
