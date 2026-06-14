@@ -99,8 +99,7 @@
       ellipse 70% 60% at 92% 92%,
       rgba(120, 190, 255, 0.45),
       transparent 62%
-    ),
-    #f1f1f1;
+    ), #f1f1f1;
   scroll-behavior: smooth;
 }
 
@@ -156,8 +155,7 @@
       ellipse 110% 50% at 80% 30%,
       rgba(255, 215, 0, 0.08),
       transparent 40%
-    ),
-    #000000;
+    ), #000000;
 }
 
 @layer base {

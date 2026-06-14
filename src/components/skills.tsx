@@ -1,88 +1,138 @@
-import { useId } from "react";
-import { CardContent, CardTitle } from "./shared/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/shared/card";
+import { Separator } from "@/components/shared/separator";
+import { Badge } from "@/components/shared/badge";
+import { Bot, Globe, Layers, SearchCheck, Workflow } from "lucide-react";
 
 const skillsData = {
-  title: "Skills",
+  title: "What I Work With",
   types: [
     {
-      type: "Frontend",
-      skills: [
-        "JavaScript (ES6+)",
-        "TypeScript",
-        "React.js",
+      type: "Web & Mobile",
+      icon: Globe,
+      summary:
+        "I build web apps and mobile apps that work fast, look clean, and scale.",
+      tools: [
         "Next.js",
-        "HTML5",
-        "CSS3",
+        "React",
+        "React Native",
+        "React Ionic",
+        "TypeScript",
         "Tailwind CSS",
       ],
     },
     {
-      type: "Backend",
-      skills: [
+      type: "Backend & APIs",
+      icon: Workflow,
+      summary:
+        "Solid backend work — APIs, databases, auth, payments, and integrations.",
+      tools: [
         "Node.js",
-        "Express.js",
         "Fastify",
-        "Moleculer.js",
-        "REST API Design",
-        "WebSockets",
-        "JWT Authentication",
-        "RBAC",
-        "Stripe Integration",
+        "PostgreSQL",
+        "MongoDB",
+        "Supabase",
+        "REST APIs",
       ],
     },
     {
-      type: "Database",
-      skills: ["MongoDB", "PostgreSQL", "Mongoose", "Prisma"],
+      type: "AI & Automation",
+      icon: Bot,
+      summary:
+        "Chatbots, AI agents, and automated workflows that run while you sleep.",
+      tools: [
+        "Claude API",
+        "OpenAI",
+        "n8n",
+        "RAG",
+        "WhatsApp Bots",
+        "LLM Integration",
+      ],
     },
     {
-      type: "Tools & Practices",
-      skills: [
-        "Docker",
-        "CI/CD",
-        "Git",
-        "GitHub",
-        "Linux",
-        "Postman",
-        "Microservices Architecture",
-        "Event-Driven Systems",
-        "Multi-Tenant SaaS",
-        "System Design",
-        "Clean Code",
-        "Agile Methodology",
-        "Debugging",
-        "Code Reviews",
+      type: "SEO & Performance",
+      icon: SearchCheck,
+      summary:
+        "Fast sites that rank. Built right from the start, not patched in later.",
+      tools: [
+        "Core Web Vitals",
+        "Schema Markup",
+        "Next.js SSR/SSG",
+        "Page Speed",
+        "On-page SEO",
       ],
+    },
+    {
+      type: "Infrastructure & Dev",
+      icon: Layers,
+      summary:
+        "Reliable deployments, clean code, and systems that don't break at 2am.",
+      tools: ["Docker", "CI/CD", "Git", "Linux", "Vercel", "Stripe & Razorpay"],
     },
   ],
 };
 
 function Skills() {
   return (
-    <section aria-labelledby="skills">
-      <CardTitle id="skills">
-        <h2>{skillsData.title}</h2>
-      </CardTitle>
+    <section aria-labelledby="skills" id="skills" className="max-w-2xl">
+      <Card className="border-none shadow-none bg-transparent">
+        <CardHeader className="px-0 pb-2">
+          <CardTitle className="text-3xl font-semibold tracking-tight">
+            {skillsData.title}
+          </CardTitle>
+        </CardHeader>
 
-      <CardContent>
-        <div className="space-y-6">
-          {skillsData.types.map((skill) => {
+        <CardContent className="px-0 space-y-3">
+          {skillsData.types.map((skill, i) => {
+            const Icon = skill.icon;
             return (
-              <section key={useId()}>
-                <h3 className="text-lg font-semibold mb-3">{skill.type}</h3>
-                <ul className="flex flex-wrap gap-3">
-                  {skill.skills.map((s) => (
-                    <li key={s}>
-                      <span className="px-3 py-1.5 bg-linear-to-r from-blue-500 to-purple-600 text-white text-xs font-semibold rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
-                        {s}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </section>
+              <Card
+                key={i}
+                className="bg-card border border-border rounded-xl group"
+              >
+                <CardContent className="p-5">
+                  <div className="">
+                    {/* Icon column */}
+                    <div className="mb-4 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-border bg-muted">
+                      <Icon className="h-4 w-4 text-muted-foreground" />
+                    </div>
+
+                    {/* Content column */}
+                    <div className="flex-1 min-w-0 space-y-3">
+                      <div>
+                        <h3 className="text-base font-semibold tracking-tight leading-none">
+                          {skill.type}
+                        </h3>
+                        <p className="mt-1.5 text-sm text-muted-foreground leading-relaxed tracking-wide">
+                          {skill.summary}
+                        </p>
+                      </div>
+
+                      <Separator />
+
+                      <div className="flex flex-wrap gap-1.5">
+                        {skill.tools.map((tool) => (
+                          <Badge
+                            key={tool}
+                            variant="secondary"
+                            className="text-xs font-medium rounded-md px-2 py-0.5"
+                          >
+                            {tool}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             );
           })}
-        </div>
-      </CardContent>
+        </CardContent>
+      </Card>
     </section>
   );
 }

@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://ashishsolanki.vercel.app/sitemap.xml",
+    sitemap: "https://ashishsolanki.com/sitemap.xml",
   };
 }

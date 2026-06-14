@@ -5,4 +5,4 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const siteUrl = new URL("https://ashishsolanki.vercel.app");
+export const siteUrl = new URL("https://ashishsolanki.com");
