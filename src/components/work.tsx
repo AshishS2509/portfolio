@@ -8,6 +8,7 @@ import { Separator } from "@/components/shared/separator";
 import { Badge } from "@/components/shared/badge";
 import {
   Bot,
+  ChevronsUp,
   Globe,
   Layers,
   Lightbulb,
@@ -21,80 +22,153 @@ const workData = {
   cards: [
     {
       icon: Lightbulb,
-      title: "Business Consulting & Solution Design",
+      title: "Discovery, Consulting & Solution Design",
       description:
-        "Before writing code, I learn your business. I map the problem, identify what technology can realistically solve it, and define a scoped plan — so you build the right thing, not just something.",
+        "Every successful project starts with understanding the problem. Before any development begins, I work closely with you to understand your business, identify bottlenecks, evaluate opportunities, and design a practical technology solution that makes sense for your goals and budget.",
       outcomes: [
-        "Clear project scope before any money is spent",
-        "Right tech chosen for the right problem",
-        "No surprise pivots mid-build",
+        "Clear project scope and roadmap",
+        "Technology recommendations based on business needs",
+        "Reduced risk of costly changes later",
       ],
+      deliverables: [
+        "Business analysis",
+        "Solution architecture",
+        "Project planning",
+      ],
+      bestFor:
+        "Business owners, founders, and teams who know the problem but need clarity on the right solution.",
     },
+
     {
       icon: Globe,
-      title: "Web & Mobile Development",
+      title: "Custom Web & Mobile Applications",
       description:
-        "Full-stack web applications and cross-platform mobile apps — built clean, deployed fast, and designed to scale with your business.",
+        "I build custom web platforms, business systems, customer portals, dashboards, and mobile applications from the ground up. The focus is always on performance, scalability, usability, and long-term maintainability—not just getting something online quickly.",
       outcomes: [
-        "Production-ready apps from day one",
-        "Works on all devices and screen sizes",
-        "Built to grow without rewriting",
+        "Responsive experience across all devices",
+        "Production-ready architecture from day one",
+        "Scalable foundation for future growth",
       ],
+      deliverables: [
+        "Frontend & backend development",
+        "Database design",
+        "Deployment and support",
+      ],
+      bestFor:
+        "Businesses and startups that need a tailored product instead of an off-the-shelf solution.",
     },
+
     {
       icon: Bot,
-      title: "AI Agents & Chatbots",
+      title: "AI Agents & Intelligent Chatbots",
       description:
-        "Custom AI agents and chatbots powered by Claude and GPT that handle support, answer questions, qualify leads, and automate repetitive tasks — running 24/7 without extra headcount.",
+        "Custom AI assistants powered by modern LLMs such as GPT and Claude. These systems can answer customer questions, qualify leads, assist employees, retrieve business information, and automate repetitive workflows while remaining aligned with your business processes.",
       outcomes: [
-        "Handles customer queries instantly, any time",
-        "Qualifies and captures leads automatically",
-        "Frees your team from repetitive conversations",
+        "24/7 automated customer assistance",
+        "Lead qualification without manual effort",
+        "Reduced workload for support teams",
       ],
+      deliverables: [
+        "Custom AI assistant development",
+        "Knowledge base integration",
+        "Website and platform integration",
+      ],
+      bestFor:
+        "Businesses receiving frequent inquiries or looking to automate customer interactions.",
     },
+
     {
       icon: MessageCircle,
-      title: "WhatsApp Automation",
+      title: "WhatsApp Automation & Conversational Workflows",
       description:
-        "Automated WhatsApp flows for bookings, inquiries, order updates, and customer support using Meta Cloud API and Twilio — meeting your customers where they already are.",
+        "Meet customers where they already communicate. I create automated WhatsApp systems for bookings, inquiries, support, lead capture, reminders, follow-ups, and notifications using Meta Cloud API and other reliable integrations.",
       outcomes: [
-        "Instant automated replies to customer messages",
-        "Booking and inquiry flows without manual work",
-        "Broadcast campaigns to your existing contacts",
+        "Instant responses to customer messages",
+        "Automated booking and inquiry flows",
+        "Higher engagement through familiar channels",
       ],
+      deliverables: [
+        "Conversation flow design",
+        "WhatsApp API setup",
+        "CRM and system integrations",
+      ],
+      bestFor:
+        "Businesses that rely heavily on WhatsApp for customer communication.",
     },
+
     {
       icon: SearchCheck,
-      title: "SEO Optimization",
+      title: "SEO & Website Performance Optimization",
       description:
-        "Technical and on-page SEO that gets your site ranking — performance audits, structured data, Core Web Vitals, and content optimization built into the product from day one.",
+        "A great website is useless if nobody finds it. I optimize websites for search engines and users by improving technical SEO, page speed, structured data, content structure, and overall site performance.",
       outcomes: [
-        "Higher rankings on Google search results",
-        "Faster page load times that keep users on site",
-        "Structured data that improves search visibility",
+        "Improved visibility on Google",
+        "Faster loading websites",
+        "Better user experience and engagement",
       ],
+      deliverables: [
+        "Technical SEO audit",
+        "Core Web Vitals improvements",
+        "Structured data implementation",
+      ],
+      bestFor:
+        "Businesses with an existing website that needs more traffic, visibility, and performance.",
     },
+
     {
       icon: Workflow,
-      title: "API Integrations & Automation",
+      title: "API Integrations & Business Automation",
       description:
-        "Connect your product to the tools your business runs on — payments, CRMs, maps, email, calendars, and more — through clean, reliable integration work.",
+        "Many businesses waste time moving data between disconnected tools. I connect your applications, CRMs, payment gateways, maps, email platforms, calendars, and internal systems so information flows automatically where it needs to go.",
       outcomes: [
-        "Eliminate manual data entry between systems",
-        "Payments, notifications, and updates automated",
-        "Tools your team already uses, connected properly",
+        "Less manual data entry",
+        "Fewer operational errors",
+        "Automated business workflows",
       ],
+      deliverables: [
+        "Third-party integrations",
+        "Webhook implementation",
+        "Monitoring and error handling",
+      ],
+      bestFor:
+        "Businesses looking to streamline operations and connect existing software.",
     },
+
     {
       icon: Layers,
-      title: "SaaS & Multi-Tenant Products",
+      title: "SaaS Platforms & Multi-Tenant Systems",
       description:
-        "Subscription-based platforms with multi-tenant architecture, billing, role-based access, and admin dashboards — built to serve many clients under one scalable system.",
+        "I design and develop scalable SaaS products that support multiple customers from a single platform. Features commonly include subscriptions, billing, role-based access, analytics, and administration tools designed for long-term growth.",
       outcomes: [
-        "One codebase serving unlimited client accounts",
-        "Billing and subscriptions handled automatically",
-        "Each client sees only their own data",
+        "Scalable architecture for multiple customers",
+        "Automated subscriptions and billing",
+        "Secure tenant data separation",
       ],
+      deliverables: [
+        "Multi-tenant architecture",
+        "Admin dashboards",
+        "Subscription management",
+      ],
+      bestFor:
+        "Businesses building software products or launching a SaaS offering.",
+    },
+
+    {
+      icon: ChevronsUp,
+      title: "Rapid MVP Development",
+      description:
+        "For founders who need to validate an idea quickly. I focus on building only the essential features required to launch, gather feedback, and prove market demand before investing in a larger product.",
+      outcomes: [
+        "Faster time to market",
+        "Reduced development costs",
+        "Real user feedback sooner",
+      ],
+      deliverables: [
+        "MVP planning",
+        "Core feature development",
+        "Launch-ready deployment",
+      ],
+      bestFor: "Startups and founders testing a new idea or business model.",
     },
   ],
 };
@@ -115,53 +189,90 @@ function Work() {
             return (
               <Card key={i} className="bg-card border border-border rounded-xl">
                 <CardContent className="px-5">
-                  <div className="">
-                    {/* Icon */}
-                    <div className="mb-2  flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-border bg-muted">
-                      <Icon
-                        className="h-4 w-4 text-muted-foreground"
-                        aria-hidden="true"
-                      />
+                  <div className="flex-1 min-w-0 space-y-4">
+                    <h3 className="text-base font-semibold tracking-tight leading-snug">
+                      {item.title}
+                    </h3>
+
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {item.description}
+                    </p>
+
+                    <Separator />
+
+                    {/* Outcomes */}
+                    <div className="space-y-2 overflow-hidden">
+                      <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-muted-foreground">
+                        Outcomes
+                      </span>
+
+                      <ul className="space-y-0">
+                        {item.outcomes.map((outcome, j) => (
+                          <li key={j}>
+                            <div className="flex items-center gap-3 py-2">
+                              <Badge
+                                variant="outline"
+                                className="h-5 w-5 rounded-full p-0 flex items-center justify-center text-[0.6rem] font-semibold shrink-0 border-muted-foreground/40 text-muted-foreground"
+                              >
+                                {j + 1}
+                              </Badge>
+
+                              <span className="text-xs font-light text-foreground/70 leading-snug tracking-wide">
+                                {outcome}
+                              </span>
+                            </div>
+
+                            {j < item.outcomes.length - 1 && (
+                              <Separator className="ml-8 w-full" />
+                            )}
+                          </li>
+                        ))}
+                      </ul>
                     </div>
 
-                    {/* Content */}
-                    <div className="flex-1 min-w-0 space-y-3">
-                      <h3 className="text-base font-semibold tracking-tight leading-snug">
-                        {item.title}
-                      </h3>
+                    {/* Deliverables */}
+                    {item.deliverables?.length > 0 && (
+                      <>
+                        <Separator />
 
-                      <p className="text-sm text-muted-foreground leading-relaxed ">
-                        {item.description}
-                      </p>
+                        <div className="flex flex-col space-y-2">
+                          <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-muted-foreground">
+                            Deliverables
+                          </span>
 
-                      <Separator />
+                          <div className="flex flex-wrap gap-2">
+                            {item.deliverables.map((deliverable, index) => (
+                              <Badge
+                                key={index}
+                                variant="secondary"
+                                className="font-normal"
+                              >
+                                {deliverable}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
+                      </>
+                    )}
 
-                      <div className="space-y-2 overflow-hidden">
-                        <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-muted-foreground">
-                          Outcomes
-                        </span>
-                        <ul className="space-y-0">
-                          {item.outcomes.map((outcome, j) => (
-                            <li key={j}>
-                              <div className="flex items-center gap-3 py-2">
-                                <Badge
-                                  variant="outline"
-                                  className="h-5 w-5 rounded-full p-0 flex items-center justify-center text-[0.6rem] font-semibold shrink-0 border-muted-foreground/40 text-muted-foreground"
-                                >
-                                  {j + 1}
-                                </Badge>
-                                <span className="text-xs font-light text-foreground/70 leading-snug tracking-wide">
-                                  {outcome}
-                                </span>
-                              </div>
-                              {j < item.outcomes.length - 1 && (
-                                <Separator className="ml-8 w-full" />
-                              )}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
+                    {/* Best For */}
+                    {item.bestFor && (
+                      <>
+                        <Separator />
+
+                        <div className="space-y-2">
+                          <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-muted-foreground">
+                            Best For
+                          </span>
+
+                          <div className="rounded-lg border border-border bg-muted/40 p-3">
+                            <p className="text-xs leading-relaxed text-muted-foreground">
+                              {item.bestFor}
+                            </p>
+                          </div>
+                        </div>
+                      </>
+                    )}
                   </div>
                 </CardContent>
               </Card>

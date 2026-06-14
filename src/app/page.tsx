@@ -1,11 +1,13 @@
 import About from "@/components/about";
 import Education from "@/components/education";
 import Experience from "@/components/experience";
+import FAQ from "@/components/faq";
 import Profile from "@/components/profile";
 import Projects from "@/components/projects";
 import { Button } from "@/components/shared/button";
 import { Card } from "@/components/shared/card";
 import Skills from "@/components/skills";
+import Testimonials from "@/components/testimonials";
 import Work from "@/components/work";
 import {
   Award,
@@ -75,8 +77,10 @@ export default function Home() {
           <About />
           <Work />
           <Projects />
+          <Testimonials />
           <Experience />
           <Skills />
+          <FAQ />
           <Education />
         </Card>
       </main>
